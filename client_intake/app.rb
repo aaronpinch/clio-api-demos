@@ -2,8 +2,8 @@ enable :sessions
 set :session_secret, 'alkjas&&*&^SUPERSECRET'
 
 def client
-  client_id = "HE5vOnQWq2qRjnWulTVe0n0Y9AzVqtLIRyCuX936"
-  client_secret = "b7fCvyma2MONRj8nl6EiDdBhWs1wOrSWc3PZgqW3"
+  client_id = YOUR_APPS_CLIENT_ID
+  client_secret = YOUR_APPS_CLIENT_SECRET
   access_token = session[:access_token]
 
   @client ||= ClioClient::Session.new({client_id: client_id, client_secret: client_secret})

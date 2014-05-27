@@ -1,3 +1,4 @@
+source 'https://rubygems.org'
 gem 'sinatra'
 gem 'clio_client'
 gem 'awesome_print'
